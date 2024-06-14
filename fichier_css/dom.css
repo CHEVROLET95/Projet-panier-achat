@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f2;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+.mon-header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5px 15px;
+background:#C0C0C0;
+}
+
+.nav-menu{
+    display: flex;
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin:20px;
+}
+
+.nav-menu a:hover{
+    color: #006400;
+}
+
+.title{
+    margin: 40px;
+    text-align: center;
+    color: #006400;
+}
+
+.contenu_1{
+    border-radius: 5px;
+    width: 550px;
+    height: 350px;
+    background-color:#FFFFFF;
+    /* cursor: pointer; */
+    
+}
+
+
+.contenu_1 img{
+    padding-left: 5px;
+    cursor: pointer;
+    
+}
+
+.contenu_1{
+    margin: 10px;
+    display: flex;
+    line-height: 1.7rem;
+}
+
+.les-elements2{
+    margin-top: 10px;
+}
+
+#picture{
+    margin-left: 80%;
+}
+
+
+.button_moyen{
+    border-radius: 4px;
+    width: 32px;
+    height: 27px;
+    background-color: #f68b1e;
+    color: white;
+}
+
+.button_plus{
+    border-radius: 4px;
+    width: 32px;
+    height: 27px;
+    background-color: #f68b1e;
+    color: white;
+}
+
+.remove{
+    margin: 0 5px;
+}
+
+
+
+.letaux h3{
+    margin: 5px 10px;
+}
+
+.bastket_price{
+    margin:20px 10px;
+    padding: 3px 0;
+    border-radius: 5px;
+    background:#fff;
+    width: 20%;
+}
+
+
+.contenu_price{
+    margin-right: 5px;
+    padding: 10px;
+    
+
+}
+
+.item_price h1{
+    font-size: 15px;
+    margin-bottom: 8px;
+
+}
+
+.item_total {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 2px;
+}
+
+.sous-total{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.money{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item_commande{
+    margin: 5px 0;
+    border-radius: 3px;
+    background: #f68b1e;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+.item_commande a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.garbage_can{
+    padding: 10px 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+.garbage_can img{
+    font-size: 5px;
+}
+
+.btn_remove{
+    background-color: transparent;
+    color: #f68b1e;
+    border:none;
+    /* font-weight: 600; */
+}
