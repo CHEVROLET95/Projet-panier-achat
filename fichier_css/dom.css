@@ -154,21 +154,8 @@ background:#C0C0C0;
     
 }
 
-.garbage_can{
-    padding: 10px 10px;
-    cursor: pointer;
-    
-    
-}
-
-
-.garbage_can img{
-    font-size: 5px;
-}
-
-.btn_remove{
+.reduire_nous{
     background-color: transparent;
-    color: #f68b1e;
     border:none;
-    /* font-weight: 600; */
+    margin: 10px 10px;
 }

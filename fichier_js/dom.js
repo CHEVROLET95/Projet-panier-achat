@@ -36,8 +36,18 @@ button_moyen.addEventListener('click', function(){
     
 })
 
+const reduire_nous  = document.querySelector('.reduire_nous')
 
+console.log(reduire_nous);
 
+reduire_nous.addEventListener('click', function(){
+    const quantite_number= document.querySelector('.quantite_number').textContent
+
+    const ecrase= parseInt(quantite_number)-1
+
+    document.querySelector('.quantite_number').textContent = ecrase
+
+})
 
 
 
